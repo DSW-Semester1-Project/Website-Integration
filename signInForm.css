@@ -1,0 +1,56 @@
+html body
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#header
+{
+    display: flex;
+    flex-direction: row;
+    background-color:#707070;
+    justify-content: space-between;
+    padding: 2em;
+    max-width: 100%;
+}
+
+#logo
+{
+    justify-content: flex-start;
+}
+
+#homeButton
+{
+    justify-content: flex-end;
+}
+
+#form
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 30em;
+    background-color: rgba(182, 179, 179, 0.99);
+    padding-left: 5em ;
+    padding-top: 5em;
+    height: 40em;
+}
+
+#imagebox
+{
+    background-color: red;
+}
+
+#form-img-section
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#imagebox
+{
+    width: 80em;
+    background-image: url(drug.jpg);
+    opacity: 70%;
+}
+

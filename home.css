@@ -1,0 +1,83 @@
+html body
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+/*header section*/
+#header
+{
+    display: flex;
+    flex-direction: row;
+    background-color:#707070;
+    justify-content: space-between;
+    padding: 1em;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#logo
+{
+    justify-content: flex-start;
+}
+.navigation{
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+.navigation li{
+    display: inline;
+}
+.navigation li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    padding: 5px 20px;
+    background-color: grey;
+}
+.navigation li a:hover{
+    background: blanchedalmond;
+    color: black;
+}
+/*body section*/
+.left{
+    width: 50%;
+    float: left;
+    background-image: url("alcohol2.jpg");
+    background-repeat: no-repeat;
+}
+.right{
+    width: 50%;
+    float: left;
+    background-image: url("drug.jpg");
+    background-repeat: no-repeat;
+}
+.items{
+    text-align: center;
+}
+p{
+    font-family: sans-serif ;
+}
+.blue:hover{
+    background: -webkit-linear-gradient(lightblue, white);
+}
+p:hover{
+    font-weight: bolder;
+    background: -webkit-linear-gradient(yellow, white);
+}
+/*Footer*/
+#footer{
+    clear: both;
+    text-align: center;
+    background-color: rgba(182, 179, 179, 0.99);
+}
+span{
+    font-family: sans-serif;
+}
+
+
+
+
+
